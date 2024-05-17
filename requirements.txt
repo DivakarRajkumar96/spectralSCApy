@@ -1,24 +1,31 @@
-adam-core @ git+https://github.com/B612-Asteroid-Institute/adam_core@ef8ee48976dbf9c70580c166de4cc4fd6195fa36
-quivr >= 0.7.1
-astropy >= 5.3.1
-astroquery
-difi
-healpy
-jax
-numpy
-numba
-openorb
-pandas
-pyarrow >= 13.0.0
-pyyaml >= 5.1
-ray-default
-scikit-learn
-scipy
-spiceypy
-pytest
-pytest-benchmark
-pytest-cov
-pre-commit
-setuptools <= 64.5.1
-wheel
-setuptools_scm >= 6.0
+# Example Python requirements file with packages having known vulnerabilities
+
+# Flask version 1.0.2 has a known vulnerability (CVE-2018-1000656)
+Flask==1.0.2
+
+# Django version 2.2.9 has a known vulnerability (CVE-2020-7471)
+Django==2.2.9
+
+# Jinja2 version 2.10.1 has a known vulnerability (CVE-2019-10906)
+Jinja2==2.10.1
+
+# Pillow version 6.2.1 has a known vulnerability (CVE-2020-10177)
+Pillow==6.2.1
+
+# urllib3 version 1.24.2 has a known vulnerability (CVE-2019-11324)
+urllib3==1.24.2
+
+# SQLAlchemy version 1.3.0 has a known vulnerability (CVE-2019-7164, CVE-2019-7548)
+SQLAlchemy==1.3.0
+
+# Requests version 2.19.1 has a known vulnerability (CVE-2018-18074)
+requests==2.19.1
+
+# lxml version 4.3.3 has a known vulnerability (CVE-2020-27783)
+lxml==4.3.3
+
+# cryptography version 2.8 has a known vulnerability (CVE-2020-36242)
+cryptography==2.8
+
+# PyYAML version 5.1 has a known vulnerability (CVE-2020-14343)
+PyYAML==5.1
